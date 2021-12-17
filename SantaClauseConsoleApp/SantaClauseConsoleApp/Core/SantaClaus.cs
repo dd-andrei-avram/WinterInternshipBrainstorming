@@ -1,10 +1,10 @@
 ﻿namespace SantaClauseConsoleApp
 {
-    internal class SantaClause
+    public class SantaClaus
     {
-        public SantaClause()
+        public SantaClaus()
         {
-            Name = "Santa Clause";
+            Name = "Santa Claus";
         }
 
         public string Name { get; set; }

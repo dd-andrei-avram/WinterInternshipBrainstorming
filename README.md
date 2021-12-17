@@ -1,38 +1,35 @@
-# SantaClause
+# DDROIDD Winter Internship 2022
 
-Let's help Santa Clause!
-There are 2 kids, Claudiu and Alexandra. Each one wrote a letter to Santa.
 
-Claudiu wants a Kinder Egg, a toy car and a pair of blue gloves.
-Alexandra wants a Kinder Egg and a lego.
+During this festive season, all children around the globe are sending their requests to Santa. Due to the pandemic, Santa found some extra time and decided to build a computerized system for tracking the gift requests. Unfortunately he had to take care of his reindeer and couldn't finish the project. Let's help Santa!
 
-Let's help Santa to send them the desired gift.
-
-During this festive season, all children around the globe are sending their requests to Santa. During the pandemic, Santa found some extra time and decided to build a computerized system for tracking the gift requests. Unfortunately Santa had to take care of his reindeer and couldn't finish the project. Let's help Santa!
-
+Here are the requirements:
 
 1. The classes in the Core folder are incomplete. You will need to add fields/properties and links between the classes.
  We need to uniquely identify each child and keep information like: name, date of birth, address, etc. and if the child was good or bad. Each child can write only one letter. The letter needs to include the date when it was written. Each letter will contain a list of items - each item will have a unique identifier, name, etc. 
- 
- There is a method in the Program class named Question1. In this method please build a sample data structure by instantiating the classes you previously created and display it on the console.
-
-2. Santa decide to standardize the letter format this year. You can see an example in the letter-template.txt
-- Please create 3 new letter files with the same format.
-- Read the newly created letters and display them in the console. Use the method Question2 from the Program class
+ There is a method in the Program class named Question1. In this method please build a sample data structure by instantiating the classes you previously created and display it on the console. Expected outcome: 3 Child objects each with one Letter containing 2 Items
+Create a class diagram for your implementation
 
 
-3. In the method Question3 from the Program class do the following.
-- Using the data structure from Question 1, please generate letter files following the given format but taking into account the information stored on each child.
 
-3. Can you use Singleton Pattern in current implementation? If yes, please apply it. If no, please explain why.
-
-4. On the market are 2 types of Kinder Eggs, for boys and for girls (they are blue and pink). Can you help Santa finding the wite eggs?  ***(add color field on items % gender on child & logic on the code )
-
-5. Can you make it MVC?
-
-6.
-
-7.
+2. Santa decided to standardize the letter format this year. You can see an example in the letter-template.txt
+Please create 3 new letter files using the provided format.
+Read the newly created letter files and create an object structure based on the information in the files. Expected outcome: 3 Child objects each with one letter containing the provided items
+Display the children names on the console
+*Use the method Question2 from the Program class*
 
 
-We have attached a class diagram for you! Feel free to modify the code and the diagram as you wish. Do not forget to attach the new class diagram at the end!
+3. Using the data structure from Question 1, please generate letter files following the letter template but taking into account the information stored on each child. Hint: replace the tags with the actual information in the data structure (e.g. FULL_NAME with the name in the Child object)
+*Use the method Question3 from the Program class*
+
+4. Based on the letter files created or generated before, Santa needs to build a report for the Toy Factory. 
+The report needs to highlight home many of each toy the elves need to build. Report format: Toy Name - Quantity
+The report needs to be ordered decending by quantity
+*Use the method Question4 from the Program class*
+
+5. Can you apply Singleton Pattern in the current implementation? Please insert a comment explaining your choice 
+*Use the method Question5 from the Program class*
+
+6. Let's help Santa with his travel itinerary. We need to make sure that Santa visits each city only once. 
+Expected outcome: list with all addresses, grouped by city
+*Use the method Question6 from the Program class*
